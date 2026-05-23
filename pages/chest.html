@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GymGuide — Chest</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <nav>
+    <a href="../index.html" class="nav-logo">GYM<span>GUIDE</span></a>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="chest.html">Chest</a></li>
+      <li><a href="arms.html">Arms</a></li>
+      <li><a href="legs.html">Legs</a></li>
+      <li><a href="core.html">Core</a></li>
+      <li><a href="back.html">Back</a></li>
+      <li><a href="shoulders.html">Shoulders</a></li>
+    </ul>
+  </nav>
+
+  <div class="equipment-header">
+    <a href="../index.html" class="back-btn">
+      <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path d="M19 12H5M12 5l-7 7 7 7"/>
+      </svg>
+      All Body Parts
+    </a>
+    <div class="section-tag">Chest</div>
+    <h1 class="section-title">CHEST<br>MACHINES</h1>
+
+    <!-- SEARCH BAR — Member 5 will wire this up -->
+    <div style="margin-top: 28px; max-width: 400px;">
+      <input
+        id="equipment-search"
+        type="text"
+        placeholder="Search equipment..."
+        style="width:100%; padding:12px 18px; background:#181818; border:1px solid #2a2a2a;
+               border-radius:8px; color:#f0f0f0; font-size:14px; font-family:inherit; outline:none;
+               transition:border-color 0.2s;"
+        onfocus="this.style.borderColor='rgba(232,255,0,0.4)'"
+        onblur="this.style.borderColor='#2a2a2a'"
+      />
+    </div>
+  </div>
+
+  <main class="equipment-grid">
+
+    <!-- CARD 1: Chest Press Machine -->
+    <div class="equipment-card">
+      <!-- Replace src with your actual photo path e.g. src="../images/chest-press.jpg" -->
+      <div class="eq-image-placeholder">
+        🏋️ <span>Chest Press Machine</span>
+      </div>
+      <div class="eq-body">
+        <div class="eq-name">Chest Press Machine</div>
+        <div class="eq-target">Primary: Pectoralis Major · Secondary: Triceps, Front Delts</div>
+        <div class="eq-divider"></div>
+        <div class="eq-steps-label">How to perform</div>
+        <ul class="eq-steps">
+          <li><span class="step-num">1</span>Adjust the seat so handles are at chest height.</li>
+          <li><span class="step-num">2</span>Sit back firmly, feet flat on the floor.</li>
+          <li><span class="step-num">3</span>Grip handles, elbows at 90°. Push forward until arms are nearly straight.</li>
+          <li><span class="step-num">4</span>Slowly return to start. Keep tension — don't let the weight stack touch.</li>
+        </ul>
+        <div class="eq-reps">
+          <span class="rep-label">Recommended</span>
+          <span class="rep-value">3 Sets × 10–12 Reps</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 2: Cable Fly Machine -->
+    <div class="equipment-card">
+      <div class="eq-image-placeholder">
+        🔄 <span>Cable Fly Machine</span>
+      </div>
+      <div class="eq-body">
+        <div class="eq-name">Cable Fly Machine</div>
+        <div class="eq-target">Primary: Pectoralis Major (inner) · Secondary: Front Delts</div>
+        <div class="eq-divider"></div>
+        <div class="eq-steps-label">How to perform</div>
+        <ul class="eq-steps">
+          <li><span class="step-num">1</span>Set both pulleys to shoulder height. Stand in the center.</li>
+          <li><span class="step-num">2</span>Grab handles, step forward with one foot for balance.</li>
+          <li><span class="step-num">3</span>With a slight elbow bend, bring hands together in front of chest.</li>
+          <li><span class="step-num">4</span>Squeeze at the center, then open arms slowly back to start.</li>
+        </ul>
+        <div class="eq-reps">
+          <span class="rep-label">Recommended</span>
+          <span class="rep-value">3 Sets × 12–15 Reps</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 3: Pec Deck Machine -->
+    <div class="equipment-card">
+      <div class="eq-image-placeholder">
+        🦅 <span>Pec Deck Machine</span>
+      </div>
+      <div class="eq-body">
+        <div class="eq-name">Pec Deck (Butterfly)</div>
+        <div class="eq-target">Primary: Pectoralis Major · Secondary: Front Delts</div>
+        <div class="eq-divider"></div>
+        <div class="eq-steps-label">How to perform</div>
+        <ul class="eq-steps">
+          <li><span class="step-num">1</span>Adjust seat so arms are parallel to the floor when gripping pads.</li>
+          <li><span class="step-num">2</span>Sit upright, press back into the seat pad.</li>
+          <li><span class="step-num">3</span>Bring forearms together in a hugging motion. Squeeze the chest.</li>
+          <li><span class="step-num">4</span>Return slowly — don't allow the weight to yank your arms back.</li>
+        </ul>
+        <div class="eq-reps">
+          <span class="rep-label">Recommended</span>
+          <span class="rep-value">3 Sets × 12–15 Reps</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 4: Incline Smith Machine -->
+    <div class="equipment-card">
+      <div class="eq-image-placeholder">
+        📐 <span>Incline Smith Machine</span>
+      </div>
+      <div class="eq-body">
+        <div class="eq-name">Incline Smith Machine Press</div>
+        <div class="eq-target">Primary: Upper Pectoralis · Secondary: Triceps, Front Delts</div>
+        <div class="eq-divider"></div>
+        <div class="eq-steps-label">How to perform</div>
+        <ul class="eq-steps">
+          <li><span class="step-num">1</span>Set bench to 30–45° incline. Position bar above upper chest.</li>
+          <li><span class="step-num">2</span>Lie back, grip bar slightly wider than shoulder width.</li>
+          <li><span class="step-num">3</span>Unrack and lower bar slowly to upper chest.</li>
+          <li><span class="step-num">4</span>Press up powerfully. Re-rack by rotating wrists at the top.</li>
+        </ul>
+        <div class="eq-reps">
+          <span class="rep-label">Recommended</span>
+          <span class="rep-value">4 Sets × 8–10 Reps</span>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>GYMGUIDE &mdash; Built for your gains. No backend, just knowledge.</p>
+  </footer>
+
+  <script src="../js/navigation.js"></script>
+  <script src="../js/filter.js"></script>
+</body>
+</html>
