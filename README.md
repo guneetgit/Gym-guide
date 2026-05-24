@@ -57,7 +57,7 @@ Each equipment card currently shows a placeholder emoji. To replace it with your
 
 | Member | Files | Task |
 |--------|-------|------|
-| 1 (You) | `index.html`, `style.css`, `navigation.js` | Home page, shared styles, nav logic |
+| 1 | `index.html`, `style.css`, `navigation.js` | Home page, shared styles, nav logic |
 | 2 | `pages/chest.html`, `pages/arms.html` | Fill in equipment cards + add real photos |
 | 3 | `pages/legs.html`, `pages/core.html` | Fill in equipment cards + add real photos |
 | 4 | `pages/back.html`, `pages/shoulders.html` | Fill in equipment cards + add real photos |
