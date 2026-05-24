@@ -1,7 +1,7 @@
 # GymGuide — Group Project
 
 ## Tech Stack
-HTML · CSS · JavaScript (no backend, no frameworks)
+HTML · CSS · JavaScript 
 
 ---
 
