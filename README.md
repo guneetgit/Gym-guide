@@ -99,4 +99,4 @@ Each equipment card uses this pattern:
 </div>
 ```
 
-Just copy-paste this block and fill in the details for each machine.
+
